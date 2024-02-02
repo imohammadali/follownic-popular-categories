@@ -1,0 +1,49 @@
+/*
+rest bootstrap line height
+ */
+body{
+    line-height: 1 !important;
+}
+
+.shortcode-help{
+    background: #6d26e8;
+    padding: 12px;
+    border-radius: 5px;
+    color: white;
+
+}
+.fs-service-list > li{
+    display: inline-block;
+}
+
+.nav-item button{
+    color: #5c00fa !important;
+}
+.nav-item .active{
+    color: #0086ff !important;
+}
+
+a.fnst-image-delete {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    color: white;
+    background: black;
+    display: inline-block;
+    padding: 0 5px;
+    border-radius: 50%;
+    opacity: 0;
+    text-decoration: none;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+}
+.fnst_image {
+    position: relative;
+}
+.fnst_image:hover a.fnst-image-delete{
+    opacity: 1;
+}
+.cursor-pointer{
+    cursor: pointer;
+}

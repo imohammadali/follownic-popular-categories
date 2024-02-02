@@ -1,0 +1,119 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Follownic Services Tabs\n"
+"POT-Creation-Date: 2022-09-03 10:40+0430\n"
+"PO-Revision-Date: 2022-09-03 10:45+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: follownic-tabs.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: core/acs-fields/class-fnst-acf-field.php:25
+#: core/acs-fields/class-fnst-acf-field.php:27
+msgid "Services Tab"
+msgstr "تنظیم سرویس های تب های "
+
+#: core/acs-fields/class-fnst-acf-field.php:42
+#: core/acs-fields/class-fnst-acf-field.php:46 core/view/metabox_view.php:27
+msgid "enable"
+msgstr "فعال"
+
+#: core/acs-fields/class-fnst-acf-field.php:43
+msgid "disable"
+msgstr "غیر فعال"
+
+#: core/acs-fields/class-fnst-acf-field.php:47
+msgid "enable services tab"
+msgstr "تنظیم سرویس های تب ها"
+
+#: core/view/metabox_view.php:32
+msgid "select logo"
+msgstr "لوگو سوشیال"
+
+#: core/view/metabox_view.php:33 core/view/metabox_view.php:64
+#: core/view/metabox_view.php:86 core/view/metabox_view.php:108
+msgid "Add Image"
+msgstr "انتخاب تصویر"
+
+#: core/view/metabox_view.php:46
+msgid "Title"
+msgstr "عنوان"
+
+#: core/view/metabox_view.php:51
+msgid "Subtitle"
+msgstr "زیر عنوان"
+
+#: core/view/metabox_view.php:57 core/view/metabox_view.php:128
+msgid "Tab 1 Title"
+msgstr "عنوان تب 1"
+
+#: core/view/metabox_view.php:63
+msgid "select tab 1 icon"
+msgstr "انتخاب آیکون تب 1"
+
+#: core/view/metabox_view.php:79 core/view/metabox_view.php:138
+msgid "Tab 2 Title"
+msgstr "عنوان تب 2"
+
+#: core/view/metabox_view.php:85
+msgid "select tab 2 icon"
+msgstr "انتخاب آیکون تب 2"
+
+#: core/view/metabox_view.php:101 core/view/metabox_view.php:148
+msgid "Tab 3 Title"
+msgstr "عنوان تب 3"
+
+#: core/view/metabox_view.php:107
+msgid "select tab 3 icon"
+msgstr "انتخاب آیکون تب 3"
+
+#: core/view/metabox_view.php:158 core/view/metabox_view.php:192
+#: core/view/metabox_view.php:226
+msgid " service 1"
+msgstr "سرویس 1"
+
+#: core/view/metabox_view.php:168 core/view/metabox_view.php:202
+#: core/view/metabox_view.php:236
+msgid " service 2"
+msgstr "سرویس 2"
+
+#: core/view/metabox_view.php:178 core/view/metabox_view.php:212
+#: core/view/metabox_view.php:246
+msgid " service 3"
+msgstr "سرویس 3"
+
+#. Plugin Name of the plugin/theme
+msgid "Follownic Services Tabs"
+msgstr "سرویس های تب های فالونیک"
+
+#. Plugin URI of the plugin/theme
+msgid "https://bwawwp.com/my-plugin/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Follownic Services Tabs for shaw services in three tabs"
+msgstr "سرویس های تب های فالونیک برای نمایش سرویس های فالونیک در 3 تب"
+
+#. Author of the plugin/theme
+msgid "Mohammadali Ebrahimzadeh"
+msgstr "محمد علی ابراهیم زاده"
+
+#. Author URI of the plugin/theme
+msgid "https://iammohammadali.ir"
+msgstr ""
+
+#~ msgid " service 4"
+#~ msgstr "سرویس 4"

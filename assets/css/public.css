@@ -1,0 +1,136 @@
+.fs-post-gallery a img {
+  max-height: 100px;
+}
+
+.fs-post-gallery {
+  border: 1px solid #9c9c9c;
+  background: #e0e0e0;
+  padding: 10px;
+}
+.modal-body {
+  display: flex;
+}
+.has-error {
+  color: red;
+  display: none;
+}
+::placeholder {
+  color: #e5e5e5;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #e5e5e5;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #e5e5e5;
+}
+.showMore_toggle_btn[aria-expanded="false"] .toggle_icon {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.field_label_order {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #131033;
+  margin-bottom: 4px;
+  display: block;
+}
+.checkbox_container {
+  display: block;
+  position: relative;
+  padding-right: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: right;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 21px;
+  color: #000;
+  padding-top: 3px;
+}
+.checkbox_container input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkbox_container input[type="checkbox"]:checked ~ .checkmark {
+  background-color: #4a3dc3;
+  border-color: #4a3dc3;
+}
+.checkbox_container .checkmark {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 24px;
+  width: 24px;
+  background-color: #efefef;
+  border: 1px solid #6c757d;
+  border-radius: 55px;
+}
+.checkbox_container input[type="checkbox"]:checked ~ .checkmark:after {
+  display: block;
+}
+.checkbox_container .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 8px;
+  top: 4px;
+  width: 6px;
+  height: 11px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.field_wrapper .field {
+  background: #fafaff;
+  border: 1px solid #d7d5e3;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 24px;
+  min-height: 48px;
+  padding: 12px 14px;
+  color: #131033;
+  font-size: 14px;
+  outline: none;
+  width: 100%;
+  -webkit-transition: 0.5s border-radius;
+  transition: 0.5s border-radius;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.field_wrapper .append_button {
+  position: relative;
+  border-radius: 48px;
+  overflow: hidden;
+}
+.field_wrapper .append_button .field_btn {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4a3dc3;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px 0 0 50px;
+  border: 1px solid #d7d5e3;
+  border-right: none;
+  -webkit-transition: 0.1s background;
+  transition: 0.1s background;
+}
